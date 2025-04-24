@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Farm2Fork - Your Cart" />
+  <title>Farm2Fork - Cart</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header" role="banner">
+    <div class="logo">Farm2Fork</div>
+    <nav role="navigation">
+      <a href="index.html">Shop</a>
+      <a href="cart.html">Cart (<span id="cart-count">0</span>)</a>
+    </nav>
+  </header>
+
+  <main role="main">
+    <section class="cart">
+      <h2>Your Cart</h2>
+      <div id="cart-items"></div>
+      <p>Total: ₹<span id="cart-total">0</span></p>
+      <input type="text" id="coupon" placeholder="Enter Coupon (e.g., FARM10)" />
+      <button id="apply-coupon">Apply Coupon</button>
+      <button id="place-order">Place Order</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Farm2Fork. Contact: <a href="mailto:farm2fork@gmail.com">farm2fork@gmail.com</a> | +91 7893867904</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
